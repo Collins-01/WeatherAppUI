@@ -11,6 +11,7 @@
 		2066CAF927EA2D710012BC75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066CAF827EA2D710012BC75 /* ContentView.swift */; };
 		2066CAFB27EA2D720012BC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2066CAFA27EA2D720012BC75 /* Assets.xcassets */; };
 		2066CAFE27EA2D720012BC75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2066CAFD27EA2D720012BC75 /* Preview Assets.xcassets */; };
+		2091D76127EA3A76004BD3CB /* weather_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D76027EA3A76004BD3CB /* weather_info.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2066CAFA27EA2D720012BC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2066CAFD27EA2D720012BC75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2066CAFF27EA2D720012BC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2091D76027EA3A76004BD3CB /* weather_info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		2066CAF527EA2D710012BC75 /* WeatherAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				2066CB0627EA2DCE0012BC75 /* Views */,
 				2066CAF627EA2D710012BC75 /* WeatherAppUIApp.swift */,
 				2066CAF827EA2D710012BC75 /* ContentView.swift */,
 				2066CAFA27EA2D720012BC75 /* Assets.xcassets */,
@@ -67,6 +70,22 @@
 				2066CAFD27EA2D720012BC75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2066CB0627EA2DCE0012BC75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2066CB0727EA2E140012BC75 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2066CB0727EA2E140012BC75 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2091D76027EA3A76004BD3CB /* weather_info.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2091D76127EA3A76004BD3CB /* weather_info.swift in Sources */,
 				2066CAF927EA2D710012BC75 /* ContentView.swift in Sources */,
 				2066CAF727EA2D710012BC75 /* WeatherAppUIApp.swift in Sources */,
 			);
